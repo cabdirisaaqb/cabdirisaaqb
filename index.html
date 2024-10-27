@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>web</title>
+  <link rel="shortcut icon" type="image/x-icon" href="118.jpeg">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+ <body class=" bg-gray-900 pt-[5.5rem]  h-full text-white">
+   <header class="  fixed top-0 w-full left-0 h-[3rem] flex justify-between px-6 items-center">
+     <div>
+       <h2 class="text-md text-bold
+        ">
+         <span class="text-pink-600 text-3xl relative -bottom-1">CR        </span>
+             saqra
+       </h2>
+     </div>
+     <ul class=" b duration-500 ease-inflex ul flex-col  gap-12 pt-[32rem] bg-pink-800 fixed top-0 rounded-l-lg
+     w-[200px] h-full z-50 -right-[100%] text-center pt-12">
+      <button onclick="hidin();" class="   rounded-full text-black text-md px-[20px] text-center rounded-md absolute top-2 right-2">
+       <span class="text-[1rem] text-center  text-white"><i class="fa-solid fa-xmark text-2xl"></i></span>
+     </button>
+       <li onclick="hidin();" class=" text-gray-900 text-[17px] py-4">Home</li>
+       <li onclick="hidin();" class="text-[17px] py-4">about</li>
+       <li onclick="hidin();" class="text-[17px] py-4">services</li>
+       <li onclick="hidin();" class="text-[17px] py-4">content</li>
+     </ul>
+     <button onclick="show();" class=" t px-[20px] text-center rounded-md" >
+       <span class="text-[1rem] text-center "><i class=" text-2xl  fa-solid fa-bars"></i></span>
+       </button>
+   </header>
+   
+   <div data-aos="fade-down" class="flex flex-col z-1 justify-center gap-4 items-center">
+      <div>
+        <h2 class="flex justify-center text-3xl">
+          HELLO
+          <span class="text-pink-700">I'm</span>
+        </h2>
+        <h3 class="text-sm">cabdirisaaq daahir</h3>
+        
+      </div>
+        <ul class="flex justify-center gap-2">
+    <li data-aos="fade-up-left" class="flex gap-2 items-center"><i class="border border-pink-600 rounded-full p-2 text-pink-600 fa-solid fa-phone"></i></li>
+    <li data-aos="fade-up-right" class="flex gap-2 items-center"><i class="border border-pink-600 rounded-full p-2 text-pink-600 fa-brands fa-linkedin"></i></li>
+    <li data-aos="fade-up-left" class="flex gap-2 items-center"><i class="border border-pink-600 rounded-full p-2 text-pink-600 fa-brands fa-tiktok"></i></li>
+    <li data-aos="fade-up-right" class="flex gap-2 items-center"><i class="border border-pink-600 rounded-full p-2 text-pink-600 fa-solid fa-envelope"></i></li>
+    <li data-aos="fade-up-left" class="flex gap-2 items-center"><i class="border border-pink-600 rounded-full p-2 text-pink-600 fa-brands fa-youtube"></i></li>
+  </ul>
+      <div data-aos="fade-right" class="duration-700 ease-inflex border-4 border-pink-600 w-[260px]  h-[260px] bg-red-200 rounded-full overflow-hidden">
+        <img src="118.jpeg"
+        class="w-full h-full object-cover"
+        alt="">
+       
+      </div>
+   </div>
+  <script>
+  AOS.init();
+</script>
+   <script src="main.mjs"></script>
+ </body>
+</html>
